@@ -119,7 +119,7 @@ EV-Charging-Blockchain/
 
 ---
 
-## ▶️ Run the Script  
+## Run the Script  
 To run the blockchain-based EV charging system:  
 
 ```bash

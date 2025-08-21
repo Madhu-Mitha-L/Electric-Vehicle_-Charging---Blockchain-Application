@@ -8,12 +8,12 @@
 - [Overview](#-overview)  
 - [Problem Statement](#-problem-statement)  
 - [Features](#-features)  
-- [How it Works](#-how-it-works)  
-- [How to Run](#-how-to-run)  
+- [How it Works](#-how-it-works)    
 - [Tech Stack](#-tech-stack)  
 - [Future Improvements](#-future-improvements)  
 - [File Structure](#-file-structure)  
-- [Run the Script](#-run-the-script)
+- [Run the Script](#-run-the-script)  
+
 ---
 
 ## 📌 Overview  
@@ -82,7 +82,20 @@ Blockchain provides this by recording every charging session in an **immutable d
 - Blockchain ensures **trust** between users and stations.  
 
 ---
-## Future Improvements  
+
+## 💻 Tech Stack  
+
+- **Language**: Python 🐍  
+- **Core Concept**: Blockchain (custom implementation)  
+- **Libraries**:  
+  - `hashlib` → hashing blocks  
+  - `json` → transaction storage  
+  - `time` → timestamps  
+  - `uuid` → unique session IDs  
+
+---
+
+## 🔮 Future Improvements  
 
 - Add a web-based UI (Flask/Streamlit) for easier interaction.  
 - Integrate with real EV station APIs for live data.  
@@ -93,23 +106,21 @@ Blockchain provides this by recording every charging session in an **immutable d
 - Add role-based access (user vs station owner vs admin).  
 - Improve security features like digital signatures for transactions.  
 
+---
 
+## 📂 File Structure  
 
-## 📂 File Structure
-EV-Charging-Blockchain/  
-│  
-├── ev_charging_blockchain.py   # Main application script  
-├── README.md                   # Project documentation  
-├── Output                      # images of the output 
+EV-Charging-Blockchain/
+│
+├── ev_charging_blockchain.py # Main application script
+├── README.md # Project documentation
+├── Output/ # Images of the output
+
 
 ---
 
-## Run the Script
-To run the blockchain-based EV charging system:
+## ▶️ Run the Script  
+To run the blockchain-based EV charging system:  
 
 ```bash
 python ev_charging_blockchain.py
-```
-
-
-

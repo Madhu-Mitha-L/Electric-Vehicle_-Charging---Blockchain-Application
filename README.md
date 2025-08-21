@@ -12,7 +12,7 @@
 - [Tech Stack](#-tech-stack)  
 - [Future Improvements](#-future-improvements)  
 - [File Structure](#-file-structure)  
-- [Script](#script)  
+- [Run the Script](#-run-the-script)  
 
 ---
 
@@ -110,11 +110,13 @@ Blockchain provides this by recording every charging session in an **immutable d
 
 ## 📂 File Structure  
 
-EV-Charging-Blockchain/
-│
-├── ev_charging_blockchain.py # Main application script
-├── README.md # Project documentation
-├── Output/ # Images of the output
+EV-Charging-Blockchain/  
+├── ev_charging_blockchain.py   # Main Python script  
+├── README.md                   # Project documentation  
+└── Output/                     # Folder for output files and results  
+    ├── output1.png             # Example output image  
+    └── output2.png             # Example output image  
+
 
 
 ---
